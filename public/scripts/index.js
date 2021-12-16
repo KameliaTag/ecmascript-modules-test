@@ -1,4 +1,4 @@
-import {Deck} from "./library/deck.js";
+import {Deck} from "./libraries/deck.js";
 
 const deck = new Deck();
 
