@@ -1,9 +1,22 @@
 # ecmascript-modules-test
 
-## Requirements
+## Summary
 
-- Docker
-- Docker Compose
+- [Requirements](#requirements)
+- [Optional requirements](#optional-requirements)
+- [Usage](#usage)
+  - [Start](#start)
+    - [Makefile](#makefile)
+    - [Docker Compose](#docker-compose)
+  - [Stop](#stop)
+    - [Makefile](#makefile-1)
+    - [Docker Compose](#docker-compose-1)
+  - [Restart](#restart)
+    - [Makefile](#makefile-2)
+    - [Docker Compose](#docker-compose-2)
+- [Endpoints](#endpoints)
+
+## Summary
 
 ## Optional requirements
 
