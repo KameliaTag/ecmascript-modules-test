@@ -13,23 +13,44 @@
 
 ### Start
 
+#### Makefile
+
 ```bash
-make start # makefile
-docker-compose up --detach # docker-compose
+make start
+```
+
+#### Docker Compose
+
+```bash
+docker-compose up --detach
 ```
 
 ### Stop
 
+#### Makefile
+
 ```bash
-make stop # makefile
-docker-compose down --remove-orphans --volumes --timeout 0 # docker-compose
+make stop
+```
+
+#### Docker Compose
+
+```bash
+docker-compose down --remove-orphans --volumes --timeout 0
 ```
 
 ### Restart
 
+#### Makefile
+
 ```bash
-make restart # makefile
-docker-compose down --remove-orphans --volumes --timeout 0 && docker-compose up --detach # docker-compose
+make restart
+```
+
+#### Docker Compose
+
+```bash
+docker-compose down --remove-orphans --volumes --timeout 0 && docker-compose up --detach
 ```
 
 ## Endpoints
