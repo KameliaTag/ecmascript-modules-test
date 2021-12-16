@@ -5,25 +5,31 @@
 - Docker
 - Docker Compose
 
+## Optional requirements
+
+- GNU/Make
+
 ## Usage
 
 ### Start
 
 ```bash
-make start
+make start # makefile
+docker-compose up --detach # docker-compose
 ```
 
 ### Stop
 
 ```bash
-make stop
+make stop # makefile
+docker-compose down --remove-orphans --volumes --timeout 0 # docker-compose
 ```
-
 
 ### Restart
 
 ```bash
-make restart
+make restart # makefile
+docker-compose down --remove-orphans --volumes --timeout 0 && docker-compose up --detach # docker-compose
 ```
 
 ## Endpoints
